@@ -5,7 +5,7 @@ julia.escape_time = function (z, c, num_iters){
     // For the given complex number, find its escape time. If it doesn't escape by the time
     // num_iters is reached, make it return -1
     for (let i = 0; i < num_iters; i++){
-        if (abs(z) > 2.0){
+        if (abs(z) > 1.9){
             return i;
         }
 
